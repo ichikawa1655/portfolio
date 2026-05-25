@@ -809,6 +809,7 @@ html {
   position: absolute;
   top: 0;
   left: 0;
+  color: #000;
 }
 .view_more .view_more_relative_box .one {
   position: absolute;
