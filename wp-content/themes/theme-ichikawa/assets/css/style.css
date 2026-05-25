@@ -930,6 +930,7 @@ html.is-safari .bg_wrapper {
 }
 html.is-safari .loading {
   height: calc(var(--vh, 1vh) * 115);
+  padding-bottom: 15vh;
 }
 /* ============================================ */
 /* ふわっと表示アニメーションcss↓ */
@@ -1101,6 +1102,7 @@ html.is-safari .loading {
     min-width: 344px;
     height: 35vh;
     max-height: 300px;
+    min-height: 238px;
   }
 }
 /* ============================================ */
@@ -1998,7 +2000,7 @@ body.loading-active .loading {
     top: 45px;
     left: -38px;
     font-size: 22vw;
-    letter-spacing: 10px;
+    letter-spacing: 4px;
   }
   .about .main_content .content_wrap .about_sentence {
     max-width: 85%;
@@ -2146,11 +2148,11 @@ body.loading-active .loading {
 @media (min-width: 600px) and (max-width: 1139px) {
   .about .main_content .content_wrap .catches_wrap .catches_container .catch_text {
     font-size: 8vw;
-    font-size: clamp(54px, 8vw, 63px);
+    font-size: clamp(54px, 8vw, 55px);
   }
   .about .main_content .content_wrap .back_text_01 {
-    top: 64px;
-    left: -38px;
+    top: 78px;
+    left: -53px;
     letter-spacing: 10px;
     font-size: clamp(127px, 22vw, 162px);
   }
@@ -2167,16 +2169,16 @@ body.loading-active .loading {
   }
   .fv .fv_catch {
     line-height: 1.4;
-    font-size: clamp(40px, 7.6vw, 62px);
+    font-size: clamp(27px, 7.6vw, 34px);
     letter-spacing: 4.925px;
-    bottom: 13vh;
+    bottom: 17vh;
     left: 3vw;
   }
   .about .main_content .content_wrap {
     width: 100%;
     position: relative;
     padding-top: 168px;
-    padding-bottom: clamp(405px, 108vw, 686px);
+    padding-bottom: clamp(405px, 108vw, 600px);
   }
   .about .main_content .content_wrap .catches_wrap .catches_container {
     height: 83px;
