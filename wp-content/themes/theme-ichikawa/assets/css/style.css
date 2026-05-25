@@ -1547,7 +1547,7 @@ header .header_button_box li:hover {
   height: 2px;
   margin-top: 10px;
   position: relative;
-  background-color: rgba(19, 88, 41, 0.2745098039);
+  background-color: rgba(89, 89, 89, 0.27);
   transition: opacity 0.4s ease, filter 0.4s ease;
   opacity: 0; /* ← 追加：初期は透明 */
   filter: blur(10px); /* ← 追加：初期はぼかし */
@@ -1563,7 +1563,7 @@ header .header_button_box li:hover {
   left: 0;
   height: 100%;
   width: 0%;
-  background-color: #135829;
+  background-color: #363636;
   transition: width 2s ease;
 }
 
