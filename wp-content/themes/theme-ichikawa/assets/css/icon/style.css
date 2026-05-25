@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('/portfolio//wp-content/themes/theme-ichikawa/assets/css/icon/fonts/icomoon.eot?56wrjt');
+  src:  url('/portfolio//wp-content/themes/theme-ichikawa/assets/css/icon/fonts/icomoon.eot?56wrjt#iefix') format('embedded-opentype'),
+    url('/portfolio//wp-content/themes/theme-ichikawa/assets/css/icon/fonts/icomoon.ttf?56wrjt') format('truetype'),
+    url('/portfolio//wp-content/themes/theme-ichikawa/assets/css/icon/fonts/icomoon.woff?56wrjt') format('woff'),
+    url('/portfolio//wp-content/themes/theme-ichikawa/assets/css/icon/fonts/icomoon.svg?56wrjt#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-link-click:before {
+  content: "\e900";
+}

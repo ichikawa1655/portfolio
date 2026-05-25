@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- このサイトマップは、5月 25, 2026の2:32 amに、WordPress 用のオリジナル SEO プラグイン All in One SEO v4.9.7.2により動的生成されました。 -->
+
+<?xml-stylesheet type="text/xsl" href="/portfolio/main-sitemap.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc><![CDATA[/portfolio/addl-sitemap.xml]]></loc>
+		<lastmod><![CDATA[2025-11-17T04:35:55+00:00]]></lastmod>
+	</sitemap>
+	<sitemap>
+		<loc><![CDATA[/portfolio/page-sitemap.xml]]></loc>
+		<lastmod><![CDATA[2025-11-17T04:35:55+00:00]]></lastmod>
+	</sitemap>
+</sitemapindex>
