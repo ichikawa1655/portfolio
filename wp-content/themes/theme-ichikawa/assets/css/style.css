@@ -2145,6 +2145,13 @@ body.loading-active .loading {
   .top_contact .contact_column .contact_content_box {
     row-gap: 5px;
   }
+  .works .works_wrap .works_item_list .item .modal_open_button .view_more {
+    z-index: 3;
+    position: absolute;
+    right: 5px;
+    bottom: 17px;
+    transform: scale(0.7);
+  }
 }
 @media (min-width: 600px) and (max-width: 1139px) {
   .about .main_content .content_wrap .catches_wrap .catches_container .catch_text {
@@ -2299,6 +2306,13 @@ body.loading-active .loading {
   }
   .top_contact .contact_column .contact_content_box {
     row-gap: 5px;
+  }
+  .works .works_wrap .works_item_list .item .modal_open_button .view_more {
+    z-index: 3;
+    position: absolute;
+    right: 30px;
+    bottom: 18px;
+    transform: scale(1);
   }
 }
 /* ============================================ */
