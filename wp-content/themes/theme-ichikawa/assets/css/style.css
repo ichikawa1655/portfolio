@@ -439,7 +439,7 @@ img {
 /* フォント・フォントサイズ
 /*---------------------------------------------*/
 html {
-  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "ryo-gothic-plusn", sans-serif;
 }
 
 .yumincho {
@@ -1605,6 +1605,7 @@ body.loading-active .loading {
   color: #fff;
   mix-blend-mode: difference;
   z-index: 2;
+  white-space: nowrap;
 }
 .fv .fv_catch.back {
   z-index: -1;
@@ -2020,6 +2021,7 @@ body.loading-active .loading {
     letter-spacing: 4.925px;
     bottom: 17vh;
     left: 2vw;
+    white-space: normal;
   }
   .about .main_content .content_wrap {
     width: 100%;
@@ -2181,6 +2183,7 @@ body.loading-active .loading {
     letter-spacing: 4.925px;
     bottom: 17vh;
     left: 3vw;
+    white-space: normal;
   }
   .about .main_content .content_wrap {
     width: 100%;
