@@ -330,7 +330,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
       let current = 0;
       let timer = null;
-      const delay = 3500;
+
+      const delay = 4000;
+      const first_delay = 1000;
 
       const show_slide = index => {
         slides.forEach((slide, i) => {
@@ -338,11 +340,16 @@ document.addEventListener("DOMContentLoaded", () => {
         });
       };
 
+      const next_slide = () => {
+        current = (current + 1) % slides.length;
+        show_slide(current);
+      };
+
       const start = () => {
         stop();
+
         timer = setInterval(() => {
-          current = (current + 1) % slides.length;
-          show_slide(current);
+          next_slide();
         }, delay);
       };
 
@@ -354,11 +361,19 @@ document.addEventListener("DOMContentLoaded", () => {
       };
 
       show_slide(current);
-      start();
+
+      // 初回だけ0.5秒で切り替え
+      setTimeout(() => {
+        next_slide();
+        start();
+      }, first_delay);
 
       document.addEventListener('visibilitychange', () => {
-        if (document.hidden) stop();
-        else start();
+        if (document.hidden) {
+          stop();
+        } else {
+          start();
+        }
       });
     });
   };
@@ -369,7 +384,6 @@ document.addEventListener("DOMContentLoaded", () => {
     init_auto_slider();
   }
 })();
-
 
 
 
