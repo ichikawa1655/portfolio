@@ -810,6 +810,7 @@ html {
   top: 0;
   left: 0;
   color: #000;
+  white-space: nowrap;
 }
 .view_more .view_more_relative_box .one {
   position: absolute;
@@ -1748,6 +1749,7 @@ body.loading-active .loading {
   bottom: 49px;
   letter-spacing: 1px;
   color: #000;
+  white-space: nowrap;
 }
 .works .works_wrap .works_item_list .item .modal_open_button .project_name {
   z-index: 3;
@@ -1755,6 +1757,7 @@ body.loading-active .loading {
   left: 24px;
   bottom: 22px;
   color: #000;
+  white-space: nowrap;
 }
 .works .works_wrap .works_item_list .item .modal_open_button .view_more {
   z-index: 3;
